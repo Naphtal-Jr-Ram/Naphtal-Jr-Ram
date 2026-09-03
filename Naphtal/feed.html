@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!--Declaration of html document type-->
+<html lang="en">  <!--Declaration of coding language.-->
+<head>
+  <meta charset="UTF-8">    <!--Declaration of character set-->
+  <title>Profile - Richfield Connect</title>
+  <link rel="stylesheet" href="JuniorCss.css">    <!--Reference to CSS file-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   <!--Link to Jquery file-->
+  <script src="Juniorfeed.js" defer></script>     <!--Link to Javascript for sign up page-->
+</head>
+<body>
+<header>
+  <h1>Feed</h1>
+  <div style="display: flex;">    <!--Displaying image and navigation side by side-->
+  <div><img src="ConnectLogo.jpg" alt="RichfielConnectLogo" height="200px" width="200px"></div>
+  <div>
+    <nav>
+    <a href="Home.html">Home</a>        <!--HyperLink to Home page-->
+    <a href="about.html">About</a>       <!--Hyperlink to about page-->
+    <a href="signup.html">Sign Up</a>    <!--HyperLink to signup page-->
+    <a href="profile.html">Profile</a>   <!--Hyperlink to profile page-->
+    <a href="feed.html">Feed</a>        <!--Hyperlink to feed page.-->
+  </nav>
+  </div>
+  </div>
+</header>
+<div class="post">  <!--Community Feed-->
+  <div class="feedContainer">
+  <h1 style="color:#003366">Richfield Community Feed</h1>
+  <p style="color: black"> Hi, 👋 <strong><span id="username"></span></strong>, <br></p>
+  <p style="color:black;">What's on your mind today (<span id= dateTime></span>)?</p> <!--Print, name, whats's on your mind today(DATE?Time)-->
+  <textarea id="postContent" placeholder="The world awaits your thoughts..."></textarea>
+  <button class="like-btn" id="likeButton" onclick="toggleLike()">👍 Like</button>
+  <span class="like-count" id="likeCounter">0</span><br>
+  <p style="color:black; font-style: italic;"><span id="datetime"></span></p>
+</div>
+</div>
+</body>
+<footer>&copy 2026| Created by Ramawa Naphtal Junior</footer>
+</html>
