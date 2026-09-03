@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+  background-image: url('backimage.jpg');
+  background-size: cover;
+}
+
+header, nav {
+  background: #003366;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  text-align: right;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-emphasis: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.tag {
+  display: inline-block;
+  background: #003366;
+  color: white;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.like-btn {
+      background-color: #008CBA;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+}
+footer{
+  text-align: center;
+  background: #003366;
+  color: white;
+  padding: 15px;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+.post {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.like-btn.liked {
+      background-color: #e63946; /* red when liked */
+}
+.like-count {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+.deleteBtn {
+  background: #8E24AA;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+.Rform{
+  color: white;
+}
