@@ -1,0 +1,31 @@
+.about-page{/*Styling for about page container*/
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+.about-page h1{ /*Styling for all h1 in about page*/
+    color:white;
+    margin-bottom:20px;
+}
+.purpose{color:white;}  /*Styling color for h1 under purpose class*/
+
+.purpose{ /*Styling for paragraph under purpose class*/
+    margin-bottom:30px;
+}
+
+.guidelines{ /*Styling for paragraph under guidelines class*/
+    margin-left:25px;
+    margin-bottom:30px;
+}
+
+.guidelines li{/*Styling for list*/
+    margin-bottom:10px;
+}
+
+.contact{ /*Styling for contact section and location*/
+    background:white;
+
+    padding:20px;
+    border-radius:10px;
+}

@@ -1,0 +1,73 @@
+.signup-layout{ /*styling form layout*/
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+.signup-form{ /*Styling form cointainer*/
+  background:white;
+  padding:25px;
+  border-radius:10px;
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form textarea{ /*Styling form input, dropbox, and text area*/
+
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  margin-bottom:5px;
+
+  border:1px solid #ddd;
+  border-radius:5px;
+
+  transition:.3s;
+}
+
+/*Styling form input, dropbox, and text area when focused*/
+.signup-form input:focus,
+.signup-form select:focus,
+.signup-form textarea:focus{
+
+  border-color:#003087;
+  box-shadow:0 0 10px rgba(0,48,135,.3);
+
+  outline:none;
+}
+
+.signup-form button{ /*Styling button*/
+
+  width:100%;
+
+  padding:14px;
+
+  color:white;
+  background:#003087;
+
+  border:none;
+  border-radius:5px;
+
+  cursor:pointer;
+
+  transition:.3s;
+}
+
+.signup-form button:hover{ /*Styling for when hovering over sign form button*/
+  background:#001d54;
+}
+
+.error{ /*Styling for error message*/
+  display:block;
+  color:red;
+  font-size:.8rem;
+  margin-bottom:10px;
+}
+
+@media(max-width:768px){/*Responsivness for different devices styling*/
+
+  .signup-layout{
+    grid-template-columns:1fr;
+  }
+
+}

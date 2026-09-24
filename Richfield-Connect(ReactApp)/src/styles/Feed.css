@@ -1,0 +1,91 @@
+.feed-page{ /*Feed page cointainer styling*/
+  max-width:900px;
+  margin:auto;
+}
+/*Create post text styling*/
+.create-post{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:30px;
+}
+
+.create-post textarea{ /*Text area for post styling*/
+  width:100%;
+  min-height:120px;
+  padding:12px;
+}
+
+.create-post button{ /*Styling for cbutton*/
+  margin-top:10px;
+
+  padding:10px 25px;
+
+  background:#003087;
+  color:white;
+
+  border:none;
+  border-radius:5px;
+
+  cursor:pointer;
+}
+
+.post-card{ /*Styling for post card*/
+  background:white;
+
+  padding:20px;
+  margin-bottom:20px;
+
+  border-radius:10px;
+
+  animation:fadeIn .5s ease;
+}
+
+.post-actions{ /*Styling for post actions*/
+  margin-top:15px;
+  display:flex;
+  gap:10px;
+}
+/*Styling for like button*/
+.like-btn{
+  background:#ddd;
+  border:none;
+  padding:8px 15px;
+}
+/*Styling for like button after it has been clicked*/
+.liked-btn{
+  background:#003087;
+  color:white;
+  border:none;
+  padding:8px 15px;
+}
+
+/*Styling for delete post button*/
+.delete-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:8px 15px;
+}
+
+/*Styling fade in animation*/
+@keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(10px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+@media(max-width:768px){
+
+  .post-actions{
+     flex-direction:column;
+  }
+
+}

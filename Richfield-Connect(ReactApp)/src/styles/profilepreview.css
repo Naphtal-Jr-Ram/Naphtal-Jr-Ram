@@ -1,0 +1,35 @@
+.preview-card{ /*styling for preview card*/
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.preview-avatar{ /*styling for preview-avatar class*/
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  background:#003087;
+  color:white;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  font-size:2rem;
+  margin-bottom:15px;
+}
+
+.interest-tags{ /*styling for interest-tags class*/
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:15px;
+}
+
+.tag{ /*styling for tag class*/
+  background:#003087;
+  color:white;
+  padding:5px 10px;
+  border-radius:20px;
+}

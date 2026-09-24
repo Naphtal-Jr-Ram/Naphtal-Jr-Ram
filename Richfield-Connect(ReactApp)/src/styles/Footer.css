@@ -1,0 +1,28 @@
+.footer{ /*Styling for footer color, background color and padding with margin*/
+    background:#003087;
+    color:white;
+
+    padding:25px;
+    margin-top:50px;
+}
+
+/*Styling for footer content*/
+.footer-content{
+    text-align:center;
+}
+/*Styling for footer links margin size*/
+.footer-links{
+    margin:15px 0;
+}
+/*Styling for footer link*/
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+
+    transition:.3s;
+}
+/*Styling for link when mouse overs over it*/
+.footer-links a:hover{
+    color:#ffd700;
+}

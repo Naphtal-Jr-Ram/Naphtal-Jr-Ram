@@ -1,0 +1,47 @@
+.profile-page{ /*Styling for profile page container*/
+  max-width:900px;
+  margin:auto;
+}
+
+.profile-card{ /*Styling for profile card class*/
+  background:white;
+  padding:30px;
+  border-radius:12px;
+}
+
+.profile-avatar{
+  width:120px;
+  height:120px;
+
+  border-radius:50%;
+
+  background:#003087;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:2rem;
+  font-weight:bold;
+
+  margin-bottom:20px;
+}
+
+.stats{ /*styling for class stats*/
+  display:flex;
+  justify-content:space-around;
+  margin-top:30px;
+}
+
+.stats div{ /*styling for stat div class*/
+  text-align:center;
+}
+@media(max-width:768px){ /*styling for responsiveness upon different devices*/
+
+  .stats{
+    flex-direction:column;
+    gap:20px;
+  }
+
+}

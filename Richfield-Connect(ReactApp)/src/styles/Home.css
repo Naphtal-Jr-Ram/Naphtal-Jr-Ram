@@ -1,0 +1,73 @@
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:white;
+}
+
+.hero h1{ /*Styling for hero h1 under hero class*/
+    color:#003087;
+    font-size:3rem;
+}
+
+.hero p{ /*styling for paragraph under hero clas*/
+    margin-top:15px;
+}
+
+.register-btn{ /*styling for register button*/
+    display:inline-block;
+
+    margin-top:25px;
+    padding:12px 25px;
+
+    background:#003087;
+    color:white;
+
+    text-decoration:none;
+    border-radius:6px;
+
+    transition:.3s;
+}
+
+.register-btn:hover{/*Styling for register button while hovering*/
+    background:#001f5c;
+}
+
+.features{/*Stylibg for features class*/
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    margin-top:40px;
+}
+
+.feature-card{ /*styling for class feature-card*/
+    background:white;
+
+    padding:25px;
+    border-radius:10px;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+/*Styling for hovering over feature card*/
+
+.feature-card:hover{
+    transform:translateY(-5px);
+}
+
+/*Responsiveness styling for media*/
+
+@media(max-width:768px){
+
+    .features{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+}
