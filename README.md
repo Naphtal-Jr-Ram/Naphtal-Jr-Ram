@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-**Naphtal-Jr-Ram/Naphtal-Jr-Ram** is a ✨ _special_ ✨ repository.
+**Naphtal-Jr-Ram/Naphtal-Jr-Ram** is a ✨ _special_ ✨ repository...
 
 # 👋 About Me
 
