@@ -1,0 +1,12 @@
+The Parking Management System was built for Programming 511 first year first semester as a python program.
+
+# To run program:
+1. Download Parking Management system(Programming511) file into local storage and unzip/extract files. 
+2. Open any Integrated Development Environments such as Visual Studio that has python intepreter.
+3. Open the unzipped file from the IDE environment.
+4. Run the "AssignmentProg511{NAPHTAL_JUNIOR}.py" file.
+
+# Project specifications/ assignment requirements.
+- The project is a mall payment system for parking fees of three malls.
+- Each mall has its own parking rules, fees, and capacity.
+- The programm involves allowing customers making an account, login, payment of their parking fees, view history of parking/payments, and ability to logout.
