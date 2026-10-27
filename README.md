@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 
-**Naphtal-Jr-Ram/Naphtal-Jr-Ram** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Naphtal-Jr-Ram/Naphtal-Jr-Ram** is a ✨ _special_ ✨ repository.
 
 # 👋 About Me
 
@@ -10,16 +10,18 @@ Hi, I’m Naphtal — a passionate student developer with growing expertise in w
 ---
 
 ## 🛠 Skills & Tools
-- **Languages: ** Python, C, JavaScript, HTML, CSS  
-- **Frameworks & Libraries:** jQuery, React (practice projects)   
-- **Concepts:** File I/O, conditionals, truth tables, networking basics, cybersecurity case studies  
+- **Languages:** Python, C, JavaScript, HTML, CSS, JSX  
+- **Frameworks & Libraries:** jQuery, React, Pandas, MATLAB, Matplotlib, Numpy
+    
 
 ---
 
 ## 📂 Current Projects
-- **Richfield Connect** — Multi‑page web application prototype (HTML/CSS/JS/jQuery)  
+- **Richfield Connect** — Multi‑page web application prototype (HTML/CSS/JS/jQuery/ReactAPP)  
 - **Parking Management System** — Python project for KZN Smart Mall case study   
-- **Internal Report for Richfield LTD** — *The Role of Artificial Intelligence, Networking, and Data Management in Modern Organizations*  
+- **Internal Report for Richfield LTD** — *The Role of Artificial Intelligence, Networking, and Data Management in Modern Organizations*
+- **Web Scrapping** - Using BeautifulSoup, Pandas, Matplotlib, Numpy
+- **Campus Resource Booking System** - Usage of python, tkinter(user interface) and SQLite for database storage to create a campus resource booking system.
 
 ---
 
